@@ -48,8 +48,8 @@ var Lightbox = (function ($) {
 			key: 'Default',
 
 			/**
-       Class properties:
-   	 _$element: null -> the <a> element currently being displayed
+   	    Class properties:
+   		 _$element: null -> the <a> element currently being displayed
     _$modal: The bootstrap modal generated
        _$modalDialog: The .modal-dialog
        _$modalContent: The .modal-content
@@ -60,13 +60,13 @@ var Lightbox = (function ($) {
     _$lightboxContainerTwo: Container of the second lightbox element
     _$lightboxBody: First element in the container
     _$modalArrows: The overlayed arrows container
-   	 _$galleryItems: Other <a>'s available for this gallery
+   		 _$galleryItems: Other <a>'s available for this gallery
     _galleryName: Name of the current data('gallery') showing
     _galleryIndex: The current index of the _$galleryItems being shown
-   	 _config: {} the options for the modal
+   		 _config: {} the options for the modal
     _modalId: unique id for the current lightbox
     _padding / _border: CSS properties for the modal container; these are used to calculate the available space for the content
-   	 */
+   		 */
 
 			get: function get() {
 				return Default;
